@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+#garden {
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    background-color: lightgreen;
+    border: 2px solid black;
+}
+
+.flower {
+    position: absolute;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 3s linear;
+}
+
+#log {
+    margin-left: 20px;
+    max-width: 300px;
+}
